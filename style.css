@@ -1,0 +1,365 @@
+
+body {
+    background-color: white;
+    font-family: "Poppins";
+    margin: 0px;
+    padding: 0px;
+}
+                                /* Header */
+.logo img {
+    height: 120px;
+    display: inline;
+}
+.logo {
+    display: inline;
+    position: relative;
+    left: 20%;
+}
+.link-header {
+    display: inline;
+}
+.login-header {
+    display: inline;
+}
+.link-header a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 40%;
+    bottom: 50px;
+    font-size: 20px;
+    margin: 20px;
+}
+.link-header a:hover {
+    color: white;
+}
+.login-header button {
+    position: relative;
+    left: 40%;
+    bottom: 51px;
+    background-color: #89521e;
+    height: 30px;
+    width: 80px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.login-header a button {
+    color: white;
+    text-decoration: none;
+}
+.login-header button:hover {
+    background-color: #552c1e;
+}
+                            /* Header */
+.capa-home img {
+    height: 500px;
+    position: relative;
+    left: 54%;
+    bottom: 170px;
+}
+.mov-all {
+    position: relative;
+    left: 20%;
+    top: 150px;
+    width: 300px;
+}
+.titulo-1 h1 {
+    font-size: 30px;
+}
+.button-capa button {
+    width: 120px;
+    height: 30px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #ca0029;
+    color: white;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+}
+/* PAGE 2 */
+.card-1 {
+    
+    width: 400px;
+    height: 460px;
+    border-radius: 20px;
+    background-color:  #fffaf2;
+    /* position: relative;
+    display: inline-block; */
+    /* margin: 30px; */
+}
+.header-card {
+    border: 1px solid black;
+    height: 340px;
+    width: 350px;
+    /* position: relative;
+    left: 20px;
+    top: 30px; */
+    border-radius: 20px;
+    color: black;
+    
+}
+.header-card-1 {
+    text-align: center;
+    border-radius:40px;
+}
+.img-bolocasa img {
+    height: 300px;
+    position: relative;
+    left: 40px; 
+}
+.button-prod button {
+    position: relative;
+    left: 35%;
+    top: 70px; 
+    background-color: #ca0029;
+    width: 120px;
+    height: 30px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.img-bolocasa1 img {
+    height: 300px;
+     position: relative;
+    left: 70px; 
+}
+.img-bolocasa2 img {
+    height: 200px;
+    position: relative;
+    left: 43px;
+    top: 36px;
+}
+.div-tudo {
+    position: relative;
+    top: 50px;
+    left: 25%;
+    width: 1000px;
+    overflow-x: auto;
+}
+.div-tudo2 {
+    position: relative;
+    left: 25%;
+    top: 100px;
+    width: 1000px;
+} 
+.conteiner {
+    position: relative;
+    padding: 15px;
+    width: 7200px;
+    margin: 0 auto;
+    height: 300px;
+}
+.gallery-wrapper {
+    overflow-x: auto;
+}
+.gallery {
+    display: flex;
+    flex-wrap: row nowrap;
+    gap: 15px;
+}
+.arrow-left,
+.arrow-rigth {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    transition: all 600ms ease-in-out;
+}
+.arrow-rigth {
+    position: absolute;
+    left: auto;
+    right: 0;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+}
+.arrow-left:hover,
+.arrow-rigth:hover {
+    opacity: 1;
+} 
+.item {
+    width: 250px;
+    height: 150px;
+    flex-shrink: 0;
+    opacity: 0.6;
+    transition: all 600ms ease-in-out;
+}
+.current-item {
+    opacity: 1;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .gallery-wrapper {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .bg-all {
+    background-color: #fafafb;
+    width: 1130px;
+    margin-left: 355px;
+    height: 700px;
+}
+
+.black-f {
+    background-color: #ca0029;
+    text-align: center;
+    height: 80px;
+    padding: 15px;
+    width: 1100px;
+    margin: auto;
+}
+
+.full-prod {
+    display: flex;
+    position: relative;
+    left: 34px;
+
+}
+
+.full-prod-2 {
+    margin-right: 20px;
+}
+
+.black-f1 {
+    background-color: #ca0029;
+    text-align: center;
+    height: 80px;
+    padding: 15px;
+    width: 1100px;
+    margin-left: 355px;
+}
+
+.prod-1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 250px;
+    height: 500px;
+    box-shadow: rgb(40 41 61 / 8%) 0px 0px 1px, rgb(96 97 112 / 16%) 0px 0.5px 2px;
+}
+
+.img-bolo h3 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.img-bolo img {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.texts {
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+.texts h6 {
+    position: relative;
+    top: 30px;
+    text-decoration: line-through;
+}
+
+.texts h4 {
+    color: #ca0029;
+}
+
+.texts h5 {
+    position: relative;
+    bottom: 25px;
+}
+
+.btn-prod button {
+    border-radius: 10px;
+    background-color: #ca0029;
+    color: white;
+    border: 0px;
+    position: relative;
+    left: 50px;
+    top: 45px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.valores {
+    position: relative;
+    left: 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 1130px;
+    position: relative;
+    left: 355px;
+
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.pedidos button {
+    position: relative;
+    left: 300px;
+}
+
+#coment {
+    position: relative;
+    left: 355px;
+    top: 30px;
+}
+
+.btn-coment {
+    position: relative;
+    left: 750px;
+    bottom: 27px;
+}
+
+footer {
+    background-color: #ca0029;
+    height: 400px;
+}
+
+.map {
+    position: relative;
+    left: 700px;
+    top: 50px;
+}
+
+footer h3 {
+    position: relative;
+    left: 800px;
+    top: 30px;
+    width: 200px;
+}
+
+#estado {
+    position: relative;
+    bottom: 130px;
+    left: 30px;
+}
+
